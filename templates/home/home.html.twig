@@ -1,7 +1,38 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Home Page{% endblock %}
+{% block title %}Orbital Watch — Explore the Stars{% endblock %}
 
 {% block body %}
-    <h1>Orbital Watch Homepage WIP</h1>
+    <header class="hero">
+        <div class="container">
+            <h1>Orbital Watch</h1>
+            <p>Your mission control for the stars</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2>🛰️ Upcoming Missions</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Mission Alpha</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="card">
+                    <h3>Mission Beta</h3>
+                    <p>Placeholder description for a future mission.</p>
+                </div>
+                <div class="card">
+                    <h3>Mission Gamma</h3>
+                    <p>Another placeholder for mission details.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section highlight">
+            <h2>🔭 Discover. Track. Launch.</h2>
+            <p>Orbital Watch helps you stay updated with every launch in real time.</p>
+            <button>Log in to your dashboard</button>
+        </section>
+    </main>
 {% endblock %}
